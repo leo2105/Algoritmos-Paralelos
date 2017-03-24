@@ -1,0 +1,12 @@
+u(x) = x**2 + y**2
+
+
+f(x) = x**2
+f[i]=(x[i]-x[i-1])**2
+delta f / delta x | (x=2) = delta (x**2)
+
+delta f / delta x = (f_i - f_(i-1))/(x_i - x_(i-1))
+
+vector<int> x;
+
+(f[i]-f[i-1])/(x[i]-x[i-1])
